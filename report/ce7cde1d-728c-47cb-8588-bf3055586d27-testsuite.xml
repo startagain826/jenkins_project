@@ -1,0 +1,52 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1571880678286" stop="1571880678387">
+  <name>scripts.test_contact</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1571880678286" status="passed" stop="1571880678290">
+      <name>TestContact.test_contact1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18207-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571880678292" status="failed" stop="1571880678384">
+      <name>TestContact.test_contact2</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;scripts.test_contact.TestContact object at 0x104480b70&gt;
+
+    def test_contact2(self):
+&gt;       assert False
+E       assert False
+
+scripts/test_contact.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18207-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1571880678385" status="passed" stop="1571880678387">
+      <name>TestContact.test_contact3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="18207-MainThread"/>
+        <label name="host" value="bogon"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
